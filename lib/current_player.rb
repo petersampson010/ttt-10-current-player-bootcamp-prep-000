@@ -8,6 +8,6 @@ def turn_count(board)
   return counter
 end 
 
-def 
+def even?
 def current_player(board)
   
