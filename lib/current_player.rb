@@ -7,18 +7,10 @@ def turn_count(board)
   end 
   return counter
 end 
-
-def even?(number)
-  if number % 2 == 0 
-    return true 
-  else 
-    return false 
-  end 
-end 
   
 def current_player(board)
   turn_count(board)
-  if counter == even?(number)
+  if counter % 2 == 0 
     return "X"
   else 
     return "O"
